@@ -1,0 +1,69 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body, div {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    background:transparent;
+}
+
+body {
+  font-size: 10px;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+head {
+  width: 100%;
+}
+
+h1 {
+  font-size: 2em;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #70B4FF;
+  size: 1.5em;
+}
+
+nav {
+  padding: 4%;
+}
+
+.container {
+  display: block;
+  height: 100%;
+  width: 375px;
+  background-color: #ffffff;
+  margin: auto;
+}
+
+img {
+  position: fixed;
+  clip: rect(0px,373px,285px,0px);
+}
+
+ul {
+  padding-top: 80%;
+  width: 100%;
+}
+
+.bus {
+  display: inline-block;
+  float: left;
+  padding-top: 6%;
+}
+
+.arriving {
+  display: inline-block;
+  float: right;
+  padding-left: 50%;
+  padding-top: 6%;
+}
