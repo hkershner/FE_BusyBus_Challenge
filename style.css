@@ -5,6 +5,7 @@
 body {
   font-family: sans-serif;
   font-size: 10px;
+  background-color: #c5c6ca;
 }
 
 nav {
@@ -12,16 +13,18 @@ nav {
 }
 
 .container {
-  max-width: 800px;
+  max-width: 375px;
   margin: auto;
+  background-color: #ffffff;
 }
 
 .left-arrow {
-  left: 10px;
   color: #70B4FF;
+  float: left;
   padding: 5px;
-  padding-top: 150px;
-  padding-left: 50px;
+  padding-top: 130px;
+  padding-left: 20px;
+  padding-right: 0px;
 }
 
 img {
@@ -30,14 +33,15 @@ img {
 
 h1 {
   display: inline-block;
-  font-size: 3em;
+  font-size: 2.5em;
   padding: 5px;
-  padding-top: 150px;
+  padding-top: 135px;
   padding-bottom: 60px;
+  padding-right: 15px;
 }
 
 ul {
-  padding-left: 50px
+  padding-left: 40px
 }
 
 li:after {
@@ -54,38 +58,42 @@ li {
   border-bottom-width: thin;
 }
 
+/* content on the left of the list */
 .bus {
   float: left;
-  width: 70%;
-  font-size: 2em;
+  width: 65%;
+  font-size: 1.5em;
   padding-top: 15px;
 }
 
+/* three digit bus numbers */
 span {
   display: inline-grid;
   padding-left: 12px;
-  padding-top: 25px;
+  padding-top: 20px;
 }
 
+/* two digit bus numbers */
 .num {
   display: inline-grid;
-  padding-left: 20px;
-  padding-top: 25px;
+  padding-left: 16px;
+  padding-top: 20px;
   padding-right: 15px;
   text-align: center;
 }
-
+/* one digit bus numbers */
 .num_ {
   display: inline-grid;
-  padding-left: 30px;
-  padding-top: 25px;
+  padding-left: 20px;
+  padding-top: 20px;
   padding-right: 15px;
   text-align: center;
 }
 
+/* where the bus is going */
 .destination {
   display: inline-grid;
-  padding-left: 25px;
+  padding-left: 5px;
   vertical-align: middle;
 }
 
@@ -96,13 +104,15 @@ span {
   color: #FFAC70;
 }
 
+/* content on the right of the list */
 .arriving {
   float: right;
-  width: 30%;
+  width: 35%;
   text-align: right;
   padding-top: 15px;
 }
 
+/* when the bus is arriving */
 .number {
   display: inline-block;
   padding-top: 15px;
@@ -110,25 +120,28 @@ span {
   font-size: 2em;
 }
 
+/* out of order bus lines */
 .resumes {
   display: inline-block;
-  font-size: 2em;
-  padding-right: 25px;
+  font-size: 1.5em;
+  padding-right: 8px;
 }
 
+/* bus line with NA arrival time */
 .n-a {
   display: inline-block;
   padding-top: 15px;
-  padding-right: 25px;
+  padding-right: 8px;
   vertical-align: super;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
+/* minute */
 .min {
   display: inline-block;
   padding-top: 15px;
-  padding-right: 25px;
-  padding-left: 5px;
+  padding-right: 8px;
+  padding-left: 3px;
   color: #333333;
   font-size: 1.5em;
   vertical-align: super;
@@ -141,8 +154,8 @@ span {
 }
 
 .circle {
-  height: 80px;
-  width: 80px;
+  height: 50px;
+  width: 50px;
   background-color: #D5E9FE;
   border-radius: 50%;
   display: inline-block;
