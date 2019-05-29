@@ -4,16 +4,19 @@
 
 body {
   font-family: sans-serif;
-  max-width: 812px;
-  margin: auto;
+  font-size: 10px;
 }
 
 nav {
   text-align: center;
 }
 
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
 .left-arrow {
-  position: absolute;
   left: 10px;
   color: #70B4FF;
   padding: 5px;
